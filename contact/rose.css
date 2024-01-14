@@ -1,0 +1,95 @@
+ /*GLOBAL*/
+ .containe{
+    cursor: pointer;
+ }
+   .saba {
+     text-decoration: none;
+     font-weight: bold;
+     font-size: 30px;
+     color: black;
+     padding-left: 300px;
+     
+ }
+ 
+ nav{
+   background-color: rgb(94, 54, 79);
+   width: 98%;
+   text-align: center;
+   display: flex;
+   padding: 20px;
+ }
+ nav a:hover{
+    
+  text-decoration: underline;
+  background-color: rgb(203, 139, 142);
+  font-size: 60px;
+}
+ li{
+   text-decoration: none;
+ }
+ ul li {
+   text-decoration: none;
+   
+ }
+ img{
+  height: 44px;
+  margin-bottom: 0px;
+  padding: 10px;
+  margin-left: 10px;
+border-radius: 100px;
+ }
+ header h1 span{
+  margin-left:px;
+ }
+ h2{
+  text-align: center;
+  color: black;
+ }
+ form{
+  
+   
+ }
+ #formulaire{
+  border: solid 1px black;
+  border-radius: 10px;
+  width: 30%;
+  justify-content: center;
+  position: absolute;
+  left: 550px;
+ }
+ input{
+  margin-left: 50px;
+    margin: 15px;
+    padding: 6px;
+    border-radius: 10px;
+ }
+ input :hover{
+  border-radius: 0px;
+ }
+ label{
+  color: rgb(0, 0, 0);
+  
+    margin: left 10px;
+    text-transform: capitalize;
+ }
+ #boutton{
+  position: absolute;
+  top: 160px;
+  
+ }
+.assou {
+  text-align: center;
+  margin-top: 400px;
+  background-color:rgb(180, 179, 180)
+}
+   
+.ecran{
+  margin-top: 150px;
+}
+.header h2{
+  text-align: center;
+  height: 100;
+}
+ 
+
+  

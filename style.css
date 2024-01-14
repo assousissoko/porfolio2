@@ -1,0 +1,97 @@
+<style>
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,400;0,500;1,300 & display=swap');
+</style: ;
+
+:root {
+--background-color: #efe7e5
+--text-color: black;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 3% 15%;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    background-color: rgb(216, 202, 202);
+}
+p{
+    line-height: 25px;
+}
+.saba{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    padding-left: 150px;
+}
+nav a{
+    padding: 10%;
+    
+}
+nav{
+  background-color: rgb(246, 236, 236);
+  width: 100%;
+  text-align: center;
+  display: flex;
+  padding: 20px;
+}
+
+nav a:hover{
+    
+    text-decoration: underline;
+    background-color: rgb(189, 187, 185);
+    font-size: 35px;
+}
+nav ul{
+display: flex;
+align-items: center;
+list-style-type: none;
+font: weight 500.;
+}
+nav ul li{
+    margin-left: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+}
+nav ul li span{
+    position: absolute;
+    top: -5px;
+    right: -28px;
+}
+header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+header header-left {
+    flex: 6px;
+    margin-right: 100px;
+}
+header header-left small{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+header header-left h1{
+    font-size: 50px;
+    font-weight: 400px;
+    margin-top: 15x;
+}
+header header-left links {
+    margin-top: 10px;
+}
+header header-right {
+    flex: 5px;
+}
+img{
+    height: 270px;
+    border-radius: 20px;
+}
+@media screen :only screen and (max-width:1499px){
+    .nav{
+        display: block;
+    }
+       
+    }
+}

@@ -1,0 +1,260 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+  
+.main{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)100%), url(img.jpg)
+}
+
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo{
+  color: #000080;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+  color: blue;
+}
+
+.search{
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+}
+
+.srch{
+  font-family: 'Times New Roman',;
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #000080;
+  margin-top: 13px;
+  color: #fff;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+  background: #000080;
+  border: 2px #000080;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
+
+.content{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #fff;
+  position: relative;
+}
+
+.content .par{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+
+.content h1{
+  font-family: 'Times New Roman';
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+}
+
+.content .cn{
+  width: 160px;
+  height: 40px;
+  background: #000080;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .4s ease;
+
+}
+
+.content .cn a{
+  text-decoration: none;
+  color: #ffff;
+  transition: .3s ease;
+}
+
+.cn:hover{
+  background-color: gray;
+}
+
+.content span{
+  color:#000080;
+  font-size: 60px;
+}
+
+
+
+
+
+
+
+.porfolio{
+  <style>
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,400;0,500;1,300 & display=swap');
+</style: ;
+
+:root {
+--background-color: #efe7e5
+--text-color: black;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 3% 15%;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    background-color: rgb(216, 202, 202);
+}
+p{
+    line-height: 25px;
+}
+.saba{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    padding-left: 150px;
+}
+nav a{
+    padding: 10%;
+    
+}
+nav{
+  background-color: rgb(246, 236, 236);
+  width: 100%;
+  text-align: center;
+  display: flex;
+  padding: 20px;
+}
+
+nav a:hover{
+    
+    text-decoration: underline;
+    background-color: rgb(189, 187, 185);
+    font-size: 35px;
+}
+nav ul{
+display: flex;
+align-items: center;
+list-style-type: none;
+font: weight 500.;
+}
+nav ul li{
+    margin-left: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+}
+nav ul li span{
+    position: absolute;
+    top: -5px;
+    right: -28px;
+}
+header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+header header-left {
+    flex: 6px;
+    margin-right: 100px;
+}
+header header-left small{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+header header-left h1{
+    font-size: 50px;
+    font-weight: 400px;
+    margin-top: 15x;
+}
+header header-left links {
+    margin-top: 10px;
+}
+header header-right {
+    flex: 5px;
+}
+img{
+    height: 270px;
+    border-radius: 20px;
+}
+}
